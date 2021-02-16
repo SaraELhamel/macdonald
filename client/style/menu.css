@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+.logo{
+    width: 220px;
+    height: 200px;
+}
+.vertical{
+    width: 250px;
+    height: 374px;
+    overflow-y: auto;
+    border-radius: 24px;
+}
+::-webkit-scrollbar{
+    width: 14px;
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+    
+    border: 3px solid rgb(179, 179, 179);
+    border-radius: 12px;
+
+}
+.vertical img{
+    width: 120px;
+    height: 120px;
+}
+.vertical a{
+    text-decoration: none;
+    color: #000;
+}
+.products a{
+    color: #000;
+    text-decoration: none;
+}
+.title{
+    font-size: large;
+}
+.arrow{
+    background: rgb(179, 179, 179);
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 50%;
+    text-align: center;
+    /* padding: 3px 2px; */
+    margin-left:15px ;
+}
+.arrow:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.lang{
+    color: rgb(179, 179, 179);
+}
+.active {
+    color: #fdcb05;
+}
+.back{
+    border: none;
+    background-color: #fdcb05;
+    border-radius: 50%;
+    padding: 5px;
+    color: #fff;
+}
